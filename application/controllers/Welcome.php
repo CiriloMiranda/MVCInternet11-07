@@ -15,5 +15,11 @@ class Welcome extends CI_Controller {
 		echo $id;
 		echo $hola;
 	}
+	public function vistas(){
+		$data['titulo']='Desde la vista';
+		$data['lista']=array('negro','azul','blanco');
+		$this->load->view('vistas',$data);
+		$this->load->view('footer');
+	}
 
 }
