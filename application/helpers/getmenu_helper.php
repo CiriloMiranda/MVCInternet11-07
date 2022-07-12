@@ -7,7 +7,7 @@ function main_menu(){
         ),
         array(
             'title' => 'Registro',
-            'url' => base_url('index.php/registro'),
+            'url' => base_url('/registro'),
         ),
     );
 }
