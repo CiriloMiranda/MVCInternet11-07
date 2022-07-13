@@ -13,6 +13,7 @@
         <li><a href="<?= $item['url']?>"><?= $item['title']?></a></li>
         <?php endforeach; ?>
     </ul>
+    <?php  echo  validation_errors();  ?> 
     <?php
         echo form_open('registro/create',array('method'=> 'POST'));
         echo form_label('Nombre de Usuario:');
