@@ -36,5 +36,6 @@
 
         echo form_close();
     ?>
+    <?= isset($msg) ? $msg : ''?>
 </body>
 </html>
