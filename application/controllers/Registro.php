@@ -29,14 +29,14 @@ class Registro extends CI_Controller {
 			array ( 
 					'field'  =>  'username', 
 					'label'  =>  'Nombre de usuario', 
-					'rule'  =>  'required|alpha_numeric' 
+					'rules'  =>  'required|alpha_numeric' 
 			), 
 			array ( 
 				'field'  =>  'email' , 
 				'label'  =>  'Correo' , 
-				'rule'  =>  'required|valid_email' , 
-					'errores'  =>  array ( 
-							'requerido'  =>  'El %s es invalido.' , 
+				'rules'  =>  'required|valid_email' , 
+					'errors'  =>  array ( 
+							'required'  =>  'El %s es invalido.' , 
 					), 
 			), 
 		); 
