@@ -19,7 +19,6 @@
                     <div class="form-group">
                         <label for="exampleInputEmail">Correo</label>
                         <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                       
                         <div class="invalid-feedback">
                             Please provide a valid city.
                         </div>
